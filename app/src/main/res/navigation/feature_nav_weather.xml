@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home"
+    tools:ignore="UnusedNavigation">
+
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bdn.weathersample.ui.HomeFragment"
+        android:label="HomeScreen">
+
+<!--        <action-->
+<!--            android:id="@+id/loginToDashboard"-->
+<!--            app:destination="@id/nav_dashboard"-->
+<!--            app:enterAnim="@anim/fragment_open_enter"-->
+<!--            app:exitAnim="@anim/fragment_open_exit"-->
+<!--            app:popEnterAnim="@anim/fragment_close_enter"-->
+<!--            app:popExitAnim="@anim/fragment_close_exit" />-->
+
+<!--        <action-->
+<!--            android:id="@+id/loginToSelectFacility"-->
+<!--            app:destination="@id/nav_select_facility"-->
+<!--            app:enterAnim="@anim/fragment_open_enter"-->
+<!--            app:exitAnim="@anim/fragment_open_exit"-->
+<!--            app:popEnterAnim="@anim/fragment_close_enter"-->
+<!--            app:popExitAnim="@anim/fragment_close_exit" />-->
+
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.bdn.weathersample.ui.HelpFragment"
+        android:label="HelpFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.bdn.weathersample.ui.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/weatherDetailFragment"
+        android:name="com.bdn.weathersample.ui.WeatherDetailFragment"
+        android:label="WeatherDetailFragment" />
+
+    <!--    <fragment-->
+<!--        android:id="@+id/nav_select_facility"-->
+<!--        android:name="features.login.ui.SelectFacilityFragment"-->
+<!--        android:label="@string/title_select_facility">-->
+
+<!--        <argument-->
+<!--            android:name="loginResponse"-->
+<!--            app:argType="string" />-->
+<!--        <argument-->
+<!--            android:name="printerId"-->
+<!--            app:argType="string" />-->
+<!--        <action-->
+<!--            android:id="@+id/facilityToDashboard"-->
+<!--            app:destination="@id/nav_dashboard"-->
+<!--            app:enterAnim="@anim/fragment_open_enter"-->
+<!--            app:exitAnim="@anim/fragment_open_exit"-->
+<!--            app:popEnterAnim="@anim/fragment_close_enter"-->
+<!--            app:popExitAnim="@anim/fragment_close_exit" />-->
+<!--    </fragment>-->
+
+</navigation>
